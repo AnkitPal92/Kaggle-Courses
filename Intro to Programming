@@ -1,7 +1,7 @@
 'Intro to Programming' was the basic introduction to Python programming which involved:
-1. some primary manipulations of variables like assigning value to a variable and print those value (number or string).
+1. some primary manipulations of variables like assigning value to a variable and print those value(number or string).
 2. basic arithmetic operations like addition, subtraction, multiplication, division, exponentiation and modulous.
-3. 'Functions' under which I learnt how to define and invoke a function; how to pass arguments into a function.
+3. 'Functions', under which I learnt how to define and invoke a function; how to pass arguments into a function.
 4. various 'Data Types' viz., int, float, Boolean, string; and how to use and operate them promptly.
-5. 'Conditions and Conditional Statements' which is a very useful crucial aparatus in programming while perfoming operations that require certain qualifications.
-6. 'Lists' which offers a better way of storing and recovering data comapred to string, dictionary or tuples. Under 'Lists' I learnt how to add and remove data and how to slice and index them.
+5. 'Conditions and Conditional Statements', which is a very useful crucial aparatus in programming while performing operations that require certain qualifications.
+6. 'Lists', which offers a better way of storing and recovering data as comapred to a string or a dictionary or a tuple. Under 'Lists' I learnt how to add and remove data and how to slice and index them.
