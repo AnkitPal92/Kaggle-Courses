@@ -28,13 +28,11 @@ Calling of a function is used interchangeably with running a function.
 
 Let's understand the calling of function with the following example.
 
-> ***Run the function with 10 as input***
-
-> **new_number = add_three(10)**
-
-> ***Check that the value is 13, as expected***
-
-> **print(new_number)**
+    #Run the function with 10 as input
+    new_number = add_three(10)
+    
+    #Check that the value is 13, as expected
+    print(new_number)
 
 Here **new_number** is the variable that is used to call/run the function **add_three()** with 10 as input and it stores the value which is returned by the function. The print statement publish the value of **new_number**.
 
