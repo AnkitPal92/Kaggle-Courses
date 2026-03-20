@@ -24,3 +24,12 @@ The function body specifies the work that function does.
 This above code cell only defines a function, but does not run it unless it is called. The 'calling of function' is described below.
 
 ## Hoew to call(or run) a function?
+Calling of a function is used interchangeably with running a function.
+
+Let's understand the calling of function with the following example.
+
+> # Run the function with 10 as input
+new_number = add_three(10)
+
+# Check that the value is 13, as expected
+print(new_number)
