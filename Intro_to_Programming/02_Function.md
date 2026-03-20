@@ -36,4 +36,5 @@ Let's understand the calling of function with the following example.
 
 > **print(new_number)**
 
+Here **new_number** is the variable that is used to call/run the function **add_three** with 10 as input and it stores the value which is returned by the function.
 
