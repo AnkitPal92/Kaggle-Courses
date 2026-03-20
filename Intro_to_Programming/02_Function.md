@@ -12,7 +12,7 @@ Observe the following the example.
 
 + The keyword '***def***' lets Python understand that a function is about to be defined, which followed by the name of the function, i.e., '***add_three()***'. Immediately after the function name follows the argument(s), i.e., ***input_var***" within a parentheses. The arguments are the name of the variables that will serve as the inputs to the function. A function can have no argument at all or multiple arguments.
 
-+ The header is always terminated with a colon(:).
++ The header is always terminated with a colon (:).
 
 ### Body
 The function body specifies the work that function does.
@@ -41,7 +41,7 @@ Naming of functions should be done using lower case letters only with words sepa
 
 ## A more complex example
 
-Q) Determine a person's weekly paycheck after the taxes who falls under a 12% tax bracket(i.e., 12% of his salary is taken for taxes and they only take home 88%) and he is paid $15/hour. The number of hours he worked is 40.
+Q) Determine a person's weekly paycheck after the taxes who falls under a 12% tax bracket ( i.e., 12% of his salary is taken for taxes and they only take home 88%) and he is paid $15/hour. The number of hours he worked is 40.
 
 > **Defining the Function**
 
