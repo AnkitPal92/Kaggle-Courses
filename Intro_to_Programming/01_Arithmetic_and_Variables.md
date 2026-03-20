@@ -12,4 +12,5 @@ Variables are created by directly assigning values against them to the rightside
 
 While manipulating variables, the value of a variable can always be overrided by another value. The variable only stores the last value assigned to it, and does not save previous values.
 
-
+## Debugging.
+It is a very crucial step in programming which helps the coder to spot the errors(of various types) and fix them in order to run the codes properly and throw a desired output. Python throws error statements, if any, with a suggestive comment for the coder to pick up on it and hence saves a lot a time in debugging. 
