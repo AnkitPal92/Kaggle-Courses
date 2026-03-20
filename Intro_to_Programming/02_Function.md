@@ -65,8 +65,25 @@ The number of hours may vary and can be passed through the calling function at t
 2. Avoiding rewriting codes also avoids the errors (typo or otherwise).
 3. Makes the program concise and hence efficient to debug.
 
-**Caveat :** We should write the codes as little as possible in order to avoid the errors.
+**Caveat :** We should write the codes as little as possible to avoid the errors.
 
 ## Variable Scope
 
-Variables defined inside the function body cannot be accessed outside of the function. For example, while printing ***pay_pretax*** and ***pay_aftertax*** outside the function throws error as "**NameError : name 'pay_aftertax' is not defined**"
+Variables defined inside the function body cannot be accessed outside of the function. For example, while printing ***pay_pretax*** and ***pay_aftertax*** outside the function throws error as "**NameError : name 'pay_aftertax' is not defined**".
+
+Hence, we need to make sure that the information we need from the function must be mentioned in the return statement at the end of the function.
+
+A variable's scope can be local or global. Variable that is defined inside a function has local scope of that function only and variable that is defined outside of all functions has global scope, hence they can be accessed anywhere.
+
+## Functions with no arguments
+
+We can define functions with no arguments as well where we just print statements without involving any calculations as shown in the following example.
+
+    # Define the function with no arguments and with no return
+    def print_hello():
+        print("Hello, you!")
+        print("Good morning!")
+    
+    # Call the function
+    print_hello()
+
