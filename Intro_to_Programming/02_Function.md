@@ -3,10 +3,9 @@ Function is a block of code that performs a specific task multiple times without
 ## How to define a function?
 Observe the following the example.
 
-def add_three(input_var):
-
-    output_var = input_var + 3
-    return output_var**
+    def add_three(input_var):
+        output_var = input_var + 3
+        return output_var**
     
 ### Header
 + In the above block of code, the first line is called the '**header**' which specifies the name and arguments of the function. The rest of the code block is called the '**body**'.
