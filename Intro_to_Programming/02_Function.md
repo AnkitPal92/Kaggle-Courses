@@ -5,7 +5,7 @@ Observe the following the example.
 
     def add_three(input_var):
         output_var = input_var + 3
-        return output_var**
+        return output_var
     
 ### Header
 + In the above block of code, the first line is called the '**header**' which specifies the name and arguments of the function. The rest of the code block is called the '**body**'.
@@ -58,6 +58,8 @@ Q) Determine a person's weekly paycheck after the taxes who falls under a 12% ta
     pay_fulltime = get_pay(40)
     print(pay_fulltime)
 
+This prints a value of 528.0.
+
 The number of hours may vary and can be passed through the calling function at the argument place to compute the salary after taxation.
 
 ## Advantages of Functions
@@ -104,7 +106,7 @@ let's compute the same problem of single variable function again, but this time 
 
 Define the function as **get_pay_with_more_inputs()**.
 
-### Defining the function
+> ***Defining the function***
 
         def get_pay_with_more_inputs(num_hours, hourly_wage, tax_bracket):
             # Pre-tax pay
@@ -116,7 +118,9 @@ Define the function as **get_pay_with_more_inputs()**.
 This time we need to pass 3 values, one value for each variable, separated by comma in the calling of the function.
 Let's compute for 40 hours, $24/hour and 22% tax bracket.
 
-### Calling the function
+> ***Calling the function***
 
         higher_pay_aftertax = get_pay_with_more_inputs(40, 24, .22)
         print(higher_pay_aftertax)
+
+This returns a value of 748.8000000000001.
