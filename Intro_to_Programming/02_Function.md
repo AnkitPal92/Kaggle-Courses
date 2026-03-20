@@ -91,3 +91,32 @@ The output comes as
 
     Hello, you!
     Good morning!
+
+## Functions with multiple arguments
+
+Thus far we have seen the examples of no argument and single argument functions. The multiple argument function is not much diffrent from single argument function except that multiple arguments are added within the parentheses in the function header and are separated by a comma.  
+
+let's compute the same problem of single variable function again, but this time with multiple arguments where arguments will be **num_hours**, **hourly_wage** and **tax_bracket** where,
+**num_hours** : number of hours worked in one week
+**hourly_wage** : the hourly wage (in $/hour)
+**tax_bracket** : percentage of your salary that is removed for taxes
+
+
+Define the function as **get_pay_with_more_inputs()**.
+
+### Defining the function
+
+        def get_pay_with_more_inputs(num_hours, hourly_wage, tax_bracket):
+            # Pre-tax pay
+            pay_pretax = num_hours * hourly_wage
+            # After-tax pay
+            pay_aftertax = pay_pretax * (1 - tax_bracket)
+            return pay_aftertax
+
+This time we need to pass 3 values, one value for each variable, separated by comma in the calling of the function.
+Let's compute for 40 hours, $24/hour and 22% tax bracket.
+
+### Calling the function
+
+        higher_pay_aftertax = get_pay_with_more_inputs(40, 24, .22)
+        print(higher_pay_aftertax)
