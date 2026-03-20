@@ -36,5 +36,25 @@ Let's understand the calling of function with the following example.
 
 Here **new_number** is the variable that is used to call/run the function ***add_three()*** with 10 as input and it stores the value which is returned by the function. The print statement publish the value of ***new_number***.
 
+## Naming functions
+Naming of functions should be done using lower case letters only with words separated by underscores instead of spaces. The name of a function should be chosen as a shorthand notations of the name of the task that a function performs, which could be inferred immediately from the name.
 
+## A more complex example
+
+Q) Determine a person's weekly paycheck after the taxes who falls under a 12% tax bracket(i.e., 12% of his salary is taken for taxes and they only take home 88%) and he is paid $15/hour. The number of hours he worked is 40.
+
+> **Defining the Function**
+
+    def get_pay(num_hours):
+    # Pre-tax pay, based on receiving $15/hour
+    pay_pretax = num_hours * 15
+    # After-tax pay, based on being in 12% tax bracket
+    pay_aftertax = pay_pretax * (1 - .12)
+    return pay_aftertax
+
+> **Calling the Function**
+
+    # Calculate pay based on working 40 hours
+    pay_fulltime = get_pay(40)
+    print(pay_fulltime)
 
