@@ -58,3 +58,15 @@ Q) Determine a person's weekly paycheck after the taxes who falls under a 12% ta
     pay_fulltime = get_pay(40)
     print(pay_fulltime)
 
+The number of hours may vary and can be passed through the calling function at the argument place to compute the salary after taxation.
+
+## Advantages of Functions
+1. Saves time as reduces the time by only calling the function with diffrent arguments instead of rewriting or duplicating the same codes multiple times.
+2. Avoiding rewriting codes also avoids the errors (typo or otherwise).
+3. Makes the program concise and hence efficient to debug.
+
+**Caveat:** We should write the codes as little as possible in order to avoid the errors.
+
+## Variable Scope
+
+Variables defined inside the function body cannot be accessed outside of the function. For example, while printing ***pay_pretax*** and ***pay_aftertax*** outside the function throws error as "**NameError: name 'pay_aftertax' is not defined**"
