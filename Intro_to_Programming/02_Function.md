@@ -30,9 +30,10 @@ Let's understand the calling of function with the following example.
 
 > Run the function with 10 as input
 
-new_number = add_three(10)
+>new_number = add_three(10)
 
 > Check that the value is 13, as expected
+
 > print(new_number)
 
 
