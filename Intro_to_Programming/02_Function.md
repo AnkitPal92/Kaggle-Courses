@@ -87,3 +87,7 @@ We can define functions with no arguments as well where we just print statements
     # Call the function
     print_hello()
 
+The output comes as 
+
+    Hello, you!
+    Good morning!
