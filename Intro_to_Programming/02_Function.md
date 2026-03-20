@@ -1,6 +1,6 @@
 # 02. Function
 Function is a block of code that performs a specific task multiple times without duplicating the any code. 
-## Defining a Function
+## How to define a function?
 Observe the following the example.
 
 **def add_three(input_var):
@@ -17,6 +17,10 @@ Observe the following the example.
 ### Body
 The function body specifies the work that function does.
 
-+ Every line of code in the body of the function must be indented with exactly four spaces. This can be done by hitting the 'Tab' button four times or pushing the space bar four times.
++ Every line of code in the body of the function must be indented with exactly four spaces. This can be done by hitting the 'Tab' button once or pushing the space bar four times.
 + The function runs all the indented line of codes top to bottom by taking arguments as input. It stores the value after calculation in the output variable, i.e., '**output_var**'.
 + The last line of the code is called the '**return statement**' which returns the value stored in the output variable.
+
+This above code cell only defines a function, but does not run it unless it is called. The 'calling of function' is described below.
+
+## Hoew to call(or run) a function?
