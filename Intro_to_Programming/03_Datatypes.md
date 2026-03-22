@@ -51,4 +51,4 @@ We can also round off the decimal places to a specified number with **round()** 
 
 > <class 'float'>
 
-
+Whenever we write a number with decimal points, Python automatically recognises it as a float even if there is, technicallay, no fraction part. E.g., 1., or 2.0, or 3.00 all of these are considered float by Python.
