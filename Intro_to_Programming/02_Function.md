@@ -1,5 +1,5 @@
 # 02. Function
-Function is a block of code that performs a specific task multiple times without duplicating the any code. 
+Function is a block of code that performs a specific task multiple times without duplicating it. 
 ## How to define a function?
 Observe the following the example.
 
