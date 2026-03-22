@@ -108,3 +108,8 @@ Similarly, let's check for a flase statement with the following example.
 > <class 'bool'>
 
 Further, values of booleans can be altered by using **not** before them, like, **not True** is equivalent to **False**, and **not False** becomes **True**.
+ Booleans becomes particularly crucial in conditionals, i.e, if else , for, while statements etc.
+
+ ## Strings
+
+ 
