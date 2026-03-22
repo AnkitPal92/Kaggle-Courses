@@ -52,3 +52,59 @@ We can also round off the decimal places to a specified number with **round()** 
 > <class 'float'>
 
 Whenever we write a number with decimal points, Python automatically recognises it as a float even if there is, technicallay, no fraction part. E.g., 1. or 2.0 or 3.00, all of these are considered float by Python.
+
+Let's check with the following example.
+
+    y_float = 1.
+    print(y_float)
+    print(type(y_float))
+
+> 1.0
+
+> <class 'float'>
+
+## Booleans
+
+Booleans are datatypes which represent one of two values(binary): True or False. 
+
+    z_one = True
+    print(z_one)
+    print(type(z_one))
+
+> True
+
+> <class 'bool'>
+
+Similarly, the variable can also be assigned with boolean value False. 
+
+    z_two = False
+    print(z_two)
+    print(type(z_two))
+
+> False
+
+> <class 'bool'>
+
+Booleans are particularly helpful when we require the truth value of an expression. 
+
+    z_three = (1 < 2)
+    print(z_three)
+    print(type(z_three))
+
+> True
+
+> <class 'bool'>
+
+In the above example, z_three took on a value True because the expression 1 < 2 was true.
+
+Similarly, let's check for a flase statement with the following example.
+
+    z_four = (5 < 3)
+    print(z_four)
+    print(type(z_four))
+
+> False
+
+> <class 'bool'>
+
+Further, values of booleans can be altered by using **not** before them, like, **not True** is equivalent to **False**, and **not False** becomes **True**.
