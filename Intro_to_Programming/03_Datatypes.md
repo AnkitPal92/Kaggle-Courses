@@ -14,5 +14,5 @@ To know thw datatype of a variable **type()** function is used, shown as in the 
     print(x)
     print(type(x))
 > 14
-
 > <class 'int'>
+
