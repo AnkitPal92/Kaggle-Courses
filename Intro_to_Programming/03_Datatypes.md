@@ -172,4 +172,18 @@ Two strings can be added like we add two numbers (integer or float). In this cas
 
 Keep in mind that subtraction, division and multiplication are not viable operation between two strings.
 However, multiplication of a string with an integer is possible and the result is the concatenation of the original string with itself a specified number of times as represented by the integer.
- 
+
+    newest_string = "abc" * 3
+    print(newest_string)
+    print(type(newest_string)
+
+> abcabcabc
+
+> <class 'str'>
+
+***Caveat:*** Multiplication of string with a float returns an error.
+
+    will_not_work = "abc" * 3.
+
+> The error statement reads " TypeError: can't multiply sequence by non-int of type 'float' ".
+
