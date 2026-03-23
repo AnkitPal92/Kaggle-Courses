@@ -160,5 +160,16 @@ Note that, some strings are convertible to float and that can be done using **fl
 
 > <class 'float'>
 
+Two strings can be added like we add two numbers (integer or float). In this case, the result is the concatenation of the two strings in the same order. 
 
+    new_string = "World_" + "Hello"
+    print(new_string)
+    print(type(new_string))
+
+> World_Hello
+
+> <class 'str'>
+
+Keep in mind that subtraction, division and multiplication are not viable operation between two strings.
+However, multiplication of a string with an integer is possible and the result is the concatenation of the original string with itself a specified number of times as represented by the integer.
  
