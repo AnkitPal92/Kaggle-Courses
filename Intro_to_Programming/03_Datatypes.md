@@ -112,4 +112,53 @@ Further, values of booleans can be altered by using **not** before them, like, *
 
  ## Strings
 
+It is a collection of characters (like alphabet letters, spaces, punctuations, numerical digits, or symbols) contained in quotation marks. They usually represent text.
+
+    w = "Hello, Python!"
+    print(w)
+    print(type(w))
+
+> Hello, Python!
+
+> <class 'str'>
+
+The length of a string can be determined using **len()** function. In the above example, the length of "Hello, Python!" is computed by taking into consideration the letters, comma, space and the exclamation mark which comes out to be 14.
+
+    print(len(w))
+
+> 14
+
+The empty string is a special case, where the length is zero.
+
+    shortest_string = ""
+    print(type(shortest_string))
+    print(len(shortest_string))
+
+> <class 'str'>
+
+> 0
+
+Usually a number takes either an integer value or a float value, but if it is put inside quotation mark, it takes a string value as examined in the following example.
+
+    my_number = "1.12321"
+    print(my_number)
+    print(type(my_number))
+
+> 1.12321
+
+> <class 'str'>
+
+Note that, some strings are convertible to float and that can be done using **float()** function. For exapmle, "5.46395" and "6" can be converted to float.
+
+***Caveat:*** Not every string is convertible to float datatype, like "Hello, Python!" cannot be converted to float.
+
+    also_my_number = float(my_number)
+    print(also_my_number)
+    print(type(also_my_number))
+
+> 1.12321
+
+> <class 'float'>
+
+
  
