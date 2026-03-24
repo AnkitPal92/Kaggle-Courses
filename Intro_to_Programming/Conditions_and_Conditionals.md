@@ -47,6 +47,6 @@ var_one == 4 checks if the value of var_one is 4.
 
 
 ## What is a Conditional ?
-A conditional statement includes a qualification/condition that need to be satified to carry out a specified operation within a function. In essence, they modify the way a function runs, based on the condition. If the condition is satified
+A conditional statement includes a qualification/condition that need to be satified to carry out a specified operation defined by a block of codes within a function. In essence, they modify the way a function runs, based on the condition. If the condition is satified, i.e., it evaluates to **True**, then the function is executed. If the condition evaluates to **False**, then the code block within the function is not run.
 
 
