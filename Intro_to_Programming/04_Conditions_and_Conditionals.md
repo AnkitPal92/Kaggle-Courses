@@ -70,4 +70,10 @@ The simplest type of conditional statement is an "if" statement. Let's observe t
 
 > Normal temperature.
 
-Here, in the above code cell, when we passed the temperature as 37&deg;
+Here, in the above code cell, when we passed the temperature as 37&deg; So, the message comes out to be "Normal temperature", because the temperature is less than 38°C (temp > 38 evaluates to False) in this case.
+
+In the following example, if the temperature is instead 39°C, since this is greater than 38°C, the message is updated to "Fever!" as shown in the example.
+
+    print(evaluate_temp(39))
+
+> Fever!
