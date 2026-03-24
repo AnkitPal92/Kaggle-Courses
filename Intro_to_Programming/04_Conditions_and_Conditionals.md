@@ -70,4 +70,4 @@ The simplest type of conditional statement is an "if" statement. Let's observe t
 
 > Normal temperature.
 
-Here, in the above code cell, when we passed the temperature as 37&deg
+Here, in the above code cell, when we passed the temperature as 37&deg;
