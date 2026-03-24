@@ -62,3 +62,12 @@ The simplest type of conditional statement is an "if" statement. Let's observe t
 
 <ins>**Explanation:**</ins>
 
++ Initially, message is set to "Normal temperature".
++ Then, if temp > 38 is True (e.g., the body temperature is greater than 38°C), the message is updated to "Fever!". Otherwise, if temp > 38 is False, then the message is not updated.
++ Finally, message is returned by the function.
+
+        print(evaluate_temp(37))
+
+> Normal temperature.
+
+Here, in the above code cell, when we passed the temperature as 37&deg
