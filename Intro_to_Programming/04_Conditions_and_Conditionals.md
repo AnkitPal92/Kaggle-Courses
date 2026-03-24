@@ -60,4 +60,5 @@ The simplest type of conditional statement is an "if" statement. Let's observe t
             message = "Fever!"
         return message
 
+<ins>**Explanation:**</ins>
 
