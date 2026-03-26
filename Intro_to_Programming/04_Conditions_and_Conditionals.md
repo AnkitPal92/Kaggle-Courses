@@ -2,10 +2,10 @@
 
 ## Introduction
 
-To begin with, let's consider an example of a function **add_two()** which adds two to the input. So, the output of the function changes depending on the input. For instance, **add_two(5)** returns a value 7 and **add_two(8)** returns 10. 
+To begin with, let's consider an example of a function, **add_two()**, which adds two to the input. So, the output of the function changes depending on the input. For instance, **add_two(5)** returns a value 7(= 5 + 2) and **add_two(8)** returns 10(= 8 + 2). 
 So, irrespective of the input the function adds two, i.e., the functions invariably performs the same action.
 
-However, if we need to change the action of the function depending on the inputs, we require condtions that will tell the function how to act on the input. For example, if we need a function **add_five_or_seven()** that adds five if the input is less than 10, and adds seven if the input is 10 or more. Then **add_five_or_seven(1)** will return 6 (= 1+5), but **add_five_or_seven(11)** will return 18 (=11+7).
+However, if we need to change the action of the function depending on the inputs, we require condtions that will tell the function how to act on the input. For example, if we need a function **add_five_or_seven()** that adds five if the input is less than 10, and adds seven if the input is 10 or more. Then **add_five_or_seven(1)** will return 6 (= 1 + 5), but **add_five_or_seven(11)** will return 18 (= 11 + 7).
 
 ## Conditions
 
@@ -77,3 +77,12 @@ In the following example, if the temperature is instead 39°C, since this is gre
     print(evaluate_temp(39))
 
 > Fever!
+
+Observe, in the above example, there are two levels of indentations. The first level of indentation for the function and the second is for the 'if' statement. 
+
+Note here that, since the retun statement is indented under 'if' statement, it always runs irespective of whether **temp > 38** is **True** or **False**. 
+
+*** "if ... else" statements
+
+"else" statements are executed if a statement is false. So, the code under "if" statement is run when the statement is True, and the code under "else" statement is run when it is False.
+
