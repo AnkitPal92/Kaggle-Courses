@@ -82,7 +82,7 @@ Observe, in the above example, there are two levels of indentations. The first l
 
 Note here that, since the retun statement is indented under 'if' statement, it always runs irespective of whether **temp > 38** is **True** or **False**. 
 
-*** "if ... else" statements
+### "if ... else" statements
 
 "else" statements are executed if a statement is false. So, the code under "if" statement is run when the statement is True, and the code under "else" statement is run when it is False.
 
