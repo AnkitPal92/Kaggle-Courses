@@ -78,11 +78,24 @@ In the following example, if the temperature is instead 39°C, since this is gre
 
 > Fever!
 
-Observe, in the above example, there are two levels of indentations. The first level of indentation for the function and the second is for the 'if' statement. 
+Observe, in the above example, there are <ins> two levels of indentations </ins>. The first level of indentation for the function and the second is for the 'if' statement. 
 
 Note here that, since the retun statement is indented under 'if' statement, it always runs irespective of whether **temp > 38** is **True** or **False**. 
 
-### "if ... else" statements
+### "if ... else" Statements
 
 "else" statements are executed if a statement is false. So, the code under "if" statement is run when the statement is True, and the code under "else" statement is run when it is False.
+
+    def evaluate_temp_with_else(temp):
+        if temp > 38:
+            message = "Fever!"
+        else:
+            message = "Normal temperature."
+        return message
+
+Now, we call this new function **evaluate_temp_with_else(temp)**, where the input (temperature) is 37°C. In this case, the code under "if" statement, temp > 38, evaluates to False, so the code under the "else" statement is executed, and the "Normal temperature" message is returned.
+
+    print(evaluate_temp_with_else(37))
+
+> Normal temperature.
 
