@@ -5,7 +5,7 @@
 To begin with, let's consider an example of a function, **add_two()**, which adds two to the input. So, the output of the function changes depending on the input. For instance, **add_two(5)** returns a value 7(= 5 + 2) and **add_two(8)** returns 10(= 8 + 2). 
 So, irrespective of the input the function adds two, i.e., the functions invariably performs the same action.
 
-However, if we need to change the action of the function depending on the inputs, we require condtions that will tell the function how to act on the input. For example, if we need a function **add_five_or_seven()** that adds five if the input is less than 10, and adds seven if the input is 10 or more. Then **add_five_or_seven(1)** will return 6 (= 1 + 5), but **add_five_or_seven(11)** will return 18 (= 11 + 7).
+However, if we need to change the action of the function depending on the inputs, we require condtions that will tell the function how to act on the input. For example, if we need a function, **add_five_or_seven()**, that adds five if the input is less than 10, and adds seven if the input is 10 or more. Then **add_five_or_seven(1)** will have to return 6 (= 1 + 5), but **add_five_or_seven(11)** will have to return 18 (= 11 + 7).
 
 ## Conditions
 
@@ -93,9 +93,35 @@ Note here that, since the retun statement is indented under 'if' statement, it a
             message = "Normal temperature."
         return message
 
-Now, we call this new function **evaluate_temp_with_else(temp)**, where the input (temperature) is 37°C. In this case, the code under "if" statement, temp > 38, evaluates to False, so the code under the "else" statement is executed, and the "Normal temperature" message is returned.
+Now, we call this new function **evaluate_temp_with_else(temp)**, where the input (temperature) is 37°C. In this case, the code under "if" statement, temp > 38, evaluates to False, so the code under the "else" statement is executed, and the "Normal temperature." message is returned.
 
     print(evaluate_temp_with_else(37))
 
 > Normal temperature.
+
+***Caveat:*** Make sure that we should indent the codes after "if" and "else" statement.
+
+### "if ... elif ... else" Statements
+
+"elif" (which is short for "else if") statements are used to check if multiple conditions might be true.
+
+    def evaluate_temp_with_elif(temp):
+        if temp > 38:
+            message = "Fever!"
+        elif temp > 35:
+            message = "Normal temperature."
+        else:
+            message = "Low temperature."
+        return message
+
+In the above example, 
+* The function first checks if temp > 38. If this is true, then the message is set to "Fever!".
+* If the "if" statement evaluates to false, the function checks with the "elif" statement, i.e., temp > 35. If the "elif" statement evaluates to True, then the message is set to "Normal temperature."
+* Then, if still no message has been set, the "else" statement ensures that the message is set to "Low temperature.".
+
+Now, calling the function with temp set to 36 will yield:
+
+    evaluate_temp_with_elif(36)
+
+> 'Normal temperature.'
 
