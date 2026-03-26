@@ -125,3 +125,12 @@ Now, calling the function with temp set to 36 will yield:
 
 > 'Normal temperature.'
 
+In the above example, the "if" statement, temp > 38, truns out to be False and the "elif" statement, temp > 35, turns out to be True. Hence, the message skips over the "else" statement after executing "elif" statement to return the message.
+
+Let's look at another example with temperature set to 34.
+
+    evaluate_temp_with_elif(34)
+
+> 'Low temperature.'
+
+
