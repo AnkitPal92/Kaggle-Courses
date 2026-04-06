@@ -59,7 +59,9 @@ Indexing means referring to an item in the list according to its position(first,
     print("Last entry:", flowers_list[9])
 
 > First entry: pink primrose
+
 > Second entry: hard-leaved pocket orchid
+
 > Last entry: globe thistle
 
 
