@@ -7,7 +7,7 @@ In Data Science, the preprocessing of data needs to organize them first to make 
 
 **What does list offer ?**
 
-Let's analyse with an example, comapring two ways of oraganizing some species of flowers based only on its image (image classification): in **Python** **String** and **List**.
+Let's analyse with an example, comapring two ways of oraganizing some species of flowers based only on its image( image classification ): in **Python** **String** and **List**.
 
 First, we organize the names with a string.
 
@@ -93,4 +93,30 @@ An item from a list can be removed using **.remove()** by putting the item to be
     print(flowers_list)
 
 > ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood']
+
+### Adding items
+
+Use **.append()** to add an item to the list and put the item name within the parentheses.
+
+    flowers_list.append("snapdragon")
+    print(flowers_list)
+
+> ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood', 'snapdragon']
+
+### Lists are not just for strings
+
+Lists can also have any datatype including booleans, integers, and floats besides string.
+
+For example, consider hardcover book sales in the first week of April 2000 in a retail store.
+
+    hardcover_sales = [139, 128, 172, 139, 191, 168, 170]
+
+    print("Length of the list:", len(hardcover_sales))
+    print("Entry at index 2:", hardcover_sales[2])
+
+> Length of the list: 7
+
+> Entry at index 2: 172
+
+#### min() and max() operation
 
