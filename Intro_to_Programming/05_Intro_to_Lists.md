@@ -83,7 +83,7 @@ Use:
 
 > Final two entries: ['monkshood', 'globe thistle']
 
-Observe, in the above example, we obtained a new shortened list after slicing the original list(i.e., flowers_list).
+Observe, in the above example, we obtained a new shortened list after slicing the original list( i.e., flowers_list ).
 
 ### Removing items
 
