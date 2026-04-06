@@ -41,3 +41,27 @@ The difference between the above two ways to orgnaise datas may not so apparent 
 
 ### Length
 
+The length of a list refers to the number of entries in it which can be determined by **len()** opertor by putting the name of the list within the parentheses.
+
+    # The list has ten entries
+    print(len(flowers_list))
+
+> 10
+
+### Indexing
+
+Indexing means referring to an item in the list according to its position(first, second, third). Python has zero-based indexing, i.e., the first entry can be referred to with 0 and hence the last entry is referred to with a number one less than the total entries(the length of the list).
+
+    print("First entry:", flowers_list[0])
+    print("Second entry:", flowers_list[1])
+    
+    # The list has length ten, so we refer to final entry with 9
+    print("Last entry:", flowers_list[9])
+
+> First entry: pink primrose
+> Second entry: hard-leaved pocket orchid
+> Last entry: globe thistle
+
+
+
+
