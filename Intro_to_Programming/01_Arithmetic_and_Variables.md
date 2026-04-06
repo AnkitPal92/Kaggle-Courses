@@ -1,4 +1,4 @@
-# 01 Arithmetic and Variables
+# 01. Arithmetic and Variables
 ## Printing statements.
 Priniting statements is one of the simplest operation in computer programming. In Python, within the 'print' function we put inside double inverted commas the statement to be printed. The statement is then treated as a string datatype and the 'print' function returns the statement as it is.
 ## Arithmetic Operation.
