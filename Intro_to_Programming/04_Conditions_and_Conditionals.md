@@ -133,4 +133,39 @@ Let's look at another example with temperature set to 34.
 
 > 'Low temperature.'
 
+### Example of multiple "elif" Statements
+
+So far, we have noticed the onetime use of "elif" statements in all the above examples. Nevertheless, they can be used multiple times in a block of codes where more than three conditions needed to be checked. Observe the following example, wherein we will have to decide the dose of medication in milliliters for a child based on its weight.
+
+    def get_dose(weight):
+    # Dosage is 1.25 ml for anyone under 5.2 kg
+    if weight < 5.2:
+        dose = 1.25
+    elif weight < 7.9:
+        dose = 2.5
+    elif weight < 10.4:
+        dose = 3.75
+    elif weight < 15.9:
+        dose = 5
+    elif weight < 21.2:
+        dose = 7.5
+    # Dosage is 10 ml for anyone 21.2 kg or over
+    else:
+        dose = 10
+    return dose
+
+Now, let's call the function in the below code cell and observe the output.
+
+    print(get_dose(12))
+
+> 5
+
+Let's try to make some sense of the above program.
+
+* The input to the function was 12 ml, which evaluates the "if" statement to **False**. Next, all the "elif" statements until the weight < 15.9 are also evaluated to **False**. As soon as the "elif" statment with condition 'weight < 15.9' is run, the statement evaluates to **True** and the dose is set to 5.
+* Once the code block is run with one of the "elif" statements being evaluated to "True", rest of the "elif" and "else" statements gets skipped over by the function to the return statement, which returns the value of the dose.
+* Observe that changing the order of the "elif" statements would also change the result(value of the dose).
+
+
+
 
