@@ -31,3 +31,13 @@ Now, let's try organising the names with a list. Note here that, a list is creat
 
 > ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood', 'globe thistle']
 
+The difference between the above two ways to orgnaise datas may not so apparent at the first glance. But if we notice difference, it will be clearer that list offers some advantages over string, such as enumerated below.
+
++ Getting an item at a specified position is easier with the list.
++ Checking the number of items is easier too.
++ It is also easier to add and remove items.
+
+## Some basic operations on the List
+
+### Length
+
