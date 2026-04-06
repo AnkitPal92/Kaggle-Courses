@@ -64,6 +64,33 @@ Indexing means referring to an item in the list according to its position(first,
 
 > Last entry: globe thistle
 
+The above operation can also be done with single print statement by putting the Python strings and its values separated by comma.
 
+### Slicing
 
+Slicing refers to pulling out a segment of the list (either first few entries or last few entries or entries specified by positions).
+
+Use:
++  [:x], to pull out first x entries.
++  [-y:], to pull out last y entries.
++  [-1], to pull out last item only.
++  [:-2], to pull out everything except the last two entries.
+
+        print("First three entries:", flowers_list[:3])
+        print("Final two entries:", flowers_list[-2:])
+
+> First three entries: ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells']
+
+> Final two entries: ['monkshood', 'globe thistle']
+
+Observe, in the above example, we obtained a new shortened list after slicing the original list(i.e., flowers_list).
+
+### Removing items
+
+An item from a list can be removed using **.remove()** by putting the item to be removed in the parentheses.
+
+    flowers_list.remove("globe thistle")
+    print(flowers_list)
+
+> ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood']
 
