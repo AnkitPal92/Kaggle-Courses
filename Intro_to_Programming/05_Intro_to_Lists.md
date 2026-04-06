@@ -17,4 +17,5 @@ First, we organize the names with a string.
     print(flowers)
 
 > <class 'str'>
+
 > pink primrose,hard-leaved pocket orchid,canterbury bells,sweet pea,english marigold,tiger lily,moon orchid,bird of paradise,monkshood,globe thistle
