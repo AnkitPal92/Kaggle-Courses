@@ -19,3 +19,14 @@ First, we organize the names with a string.
 > <class 'str'>
 
 > pink primrose,hard-leaved pocket orchid,canterbury bells,sweet pea,english marigold,tiger lily,moon orchid,bird of paradise,monkshood,globe thistle
+
+Now, let's try organising the names with a list. Note here that, a list is created using [] brackets, every item inside the [] barckets is enclosed in quotation marks and separated by a comma.
+
+    flowers_list = ["pink primrose", "hard-leaved pocket orchid", "canterbury bells", "sweet pea", "english marigold", "tiger lily", "moon orchid", "bird of paradise", "monkshood", "globe thistle"]
+    
+    print(type(flowers_list))
+    print(flowers_list)
+
+> <class 'list'>
+
+> ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood', 'globe thistle']
