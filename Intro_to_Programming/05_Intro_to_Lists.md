@@ -120,3 +120,23 @@ For example, consider hardcover book sales in the first week of April 2000 in a 
 
 #### min() and max() operation
 
+    print("Minimum:", min(hardcover_sales))
+    print("Maximum:", max(hardcover_sales))
+
+> Minimum: 128
+
+> Maximum: 191
+
+#### sum()
+
+To add all the items, use sum().
+
+    print("Total books sold in one week:", sum(hardcover_sales))
+
+> Total books sold in one week: 1107
+
+Let's find the average number of books sold in the first five days by taking sum of the first five items in the list and then divide the sum with 5.
+
+    print("Average books sold in first five days:", sum(hardcover_sales[:5])/5)
+
+> Average books sold in first five days: 153.8
